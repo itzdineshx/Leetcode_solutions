@@ -12,5 +12,10 @@ class Solution:
         # Reverse the row   
         for row in matrix:
             row.reverse()
-            
+
         return (matrix)
+"""
+Complexity:
+Time Complexity: O(n^2) - Every element is visited -> swapped 'n' times
+Space Complexity: O(1) - Modifying within the matrix
+"""
