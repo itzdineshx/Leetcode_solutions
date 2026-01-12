@@ -8,3 +8,8 @@ class Solution:
                 return idx
             left += val
         return -1
+"""
+Complexity:
+Time: O(n)
+Space: O(1)
+"""
