@@ -13,4 +13,8 @@ class Solution:
                 nums1[k] = nums2[j]
                 j -= 1
             k -= 1
-        
+"""
+Complexity:
+Time: O(m+n) - Traversing arrays
+space: O(1) - Constant
+"""
