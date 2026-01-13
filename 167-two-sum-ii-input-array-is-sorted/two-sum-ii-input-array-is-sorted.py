@@ -19,13 +19,12 @@ class Solution:
         while l < r:
             s = numbers[l] + numbers[r] 
             if s == target: # answer
-                break
+                return l + 1, r + 1
             elif s < target: # move left pointer -> right
                 l += 1
             else: # move right pointer -> left
                 r -= 1
-        return l + 1,r + 1 # index + 1
-        
+        return False
 """
 Complexity:
 Time: O(n) - Traversal
